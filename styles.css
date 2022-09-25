@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #14b8a6;
+    --secondary-color: #4c1d95;
+    --off-white: #D1D5DB;
+}
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+/** containers **/
+
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/** Links **/
+
+.primary-link{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+/** Lists **/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    list-style: none;
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**Navigation **/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.nav-list{
+    text-align: right;
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** Header **/
+
+.heading{
+    padding: 2rem;
+}
+
+.header-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading{
+    color: var(--secondary-color);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/** Sections **/
+
+.section{
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** Footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
